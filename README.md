@@ -19,7 +19,7 @@ The final database is saved in the "db" directory.
 ## File 2: Streamlit ChatBot Interface
 ### Script Name: streamlit_chatbot.py
 ### Overview
-This script implements a Streamlit-based interface for the ChatBot. It utilizes the created database to answer user queries about "The Office" and provides relevant YouTube video links.
+This script implements a Streamlit-based interface for the ChatBot. It utilizes the created database to answer user queries about "The Office" and provides relevant YouTube video links using an external google cloud API.
 
 ### Usage
 Make sure the required dependencies are installed (streamlit, langchain, langchain_google_genai, google-api-python-client, yaml, requests, bs4).
@@ -30,7 +30,7 @@ Provides prompts for common questions about "The Office."
 Utilizes LangChain for similarity search in the database.
 Generates relevant YouTube video links based on user queries.
 ## Note
-The script requires an API key for OpenAI, Gemini, and YouTube - which I have provided, but it might run out of credits very soon. Make sure to provide these keys in a YAML file named myauth.yaml when you want to use your own. 
+The script requires an API key for OpenAI, Gemini, and YouTube. Make sure to provide these keys in a YAML file named myauth.yaml when you want to use your own in a local hosting situation. 
 Feel free to explore and enhance the functionalities of these scripts to create an even more interactive and informative ChatBot for "The Office."
 
 

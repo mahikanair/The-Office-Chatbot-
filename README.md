@@ -32,3 +32,4 @@ Generates relevant YouTube video links based on user queries.
 ## Note
 The script requires an API key for OpenAI, Gemini, and YouTube - which I have provided, but it might run out of credits very soon. Make sure to provide these keys in a YAML file named myauth.yaml when you want to use your own. 
 Feel free to explore and enhance the functionalities of these scripts to create an even more interactive and informative ChatBot for "The Office."
+![The Office](/The-Office-Chatbot-/The office.jpeg)

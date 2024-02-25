@@ -79,7 +79,7 @@ IMAPClient==2.1.0
 importlib-metadata==6.11.0
 importlib-resources==6.1.1
 ipykernel==6.29.2
-ipython==8.21.0
+ipython
 itsdangerous==2.1.2
 jedi==0.19.1
 Jinja2==3.1.3

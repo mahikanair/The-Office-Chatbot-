@@ -1,5 +1,3 @@
-pip install -r requirements.txt
-
 from langchain.vectorstores.chroma import Chroma
 from langchain_community.embeddings import OpenAIEmbeddings
 import streamlit as st

@@ -1,5 +1,5 @@
+python==3.10.1
 beautifulsoup4==4.8.2
-pysqlite3-binary
 build==1.0.3
 chroma-hnswlib
 chromadb

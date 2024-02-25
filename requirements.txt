@@ -1,8 +1,9 @@
-beautifulsoup4==4.10.0
+beautifulsoup4==4.8.2
 langchain==0.1.6
+langchain-community =0.0.19
 python-dotenv==0.19.1
-requests==2.26.0
-streamlit==1.9.0
-google-api-python-client==2.24.0
-google-auth-oauthlib==0.4.7
-streamlit-google-genai==0.0.2
+requests==2.31.0
+streamlit==1.31.0
+google-api-python-client==2.119.0
+google-auth-oauthlib==1.2.0
+streamlit-google-genai==0.0.8

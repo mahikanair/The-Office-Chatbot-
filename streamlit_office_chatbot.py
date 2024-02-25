@@ -1,4 +1,4 @@
-from langchain.vectorstores.chroma import Chroma
+from langchain_community.vectorstores import Chroma
 from langchain_community.embeddings import OpenAIEmbeddings
 import streamlit as st
 from langchain_google_genai import GoogleGenerativeAI 

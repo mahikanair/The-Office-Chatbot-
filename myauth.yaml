@@ -1,1 +1,6 @@
-
+openai:
+    access_key: 
+youtube: 
+    access_key: 
+gemini: 
+    access_key: 

@@ -49,7 +49,7 @@ def QnA_Prompt(query):
 # defining the streamlit app layout
 st.title("The Office - An American Workplace ChatBot")
 st.markdown("Hi! I'm a chatbot made for The Office newbies! Ever feel lost when your friends make references from the office and you have no idea what they're talking about? Or you want to quickly understand what all the hype is about, surrounding this show? Or perhaps you're a fan who cant remeber some aspects of the show and want to quickly verify? Well, That's what I'm here for! Ask me a question about the office and I'll give you an answer while taking you to a youtube video that pertains to your question. Yes, this is only for the American version of the show (which we all know, deep down, is better)")
-st.image("/Users/mahikanair/Downloads/The_Office_Streamlit/The office.jpeg", use_column_width=True)
+st.image("./The office.jpeg", use_column_width=True)
 
 #giving the user some prompts to get started, which becmomes a query from the user if pressed 
 user_prompt1 = st.button("What is The Office?")

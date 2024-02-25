@@ -7,13 +7,13 @@ import warnings
 import yaml
 warnings.filterwarnings("ignore")
 
-'''#get openai api key - USE THIS PART BY CREATING YOUR OWN YAML FILE WHEN HOSTING THE APP LOCALLY 
-with open('./myauth.yaml', "r") as f:
-    credentials = yaml.safe_load(f)
-openai_api_key = credentials.get('openai', {}).get('access_key')
-gemini_api_key = credentials.get('gemini', {}).get('access_key')
-yt_api_key = credentials.get('youtube', {}).get('access_key')
-'''
+#get openai api key - USE THIS PART BY CREATING YOUR OWN YAML FILE WHEN HOSTING THE APP LOCALLY 
+#with open('./myauth.yaml', "r") as f:
+#    credentials = yaml.safe_load(f)
+#openai_api_key = credentials.get('openai', {}).get('access_key')
+#gemini_api_key = credentials.get('gemini', {}).get('access_key')
+#yt_api_key = credentials.get('youtube', {}).get('access_key')
+
 
 
 #for privacy reasons getting api keys this way 
@@ -22,7 +22,7 @@ gemini_api_key = st.secrets['GEMINI']
 yt_api_key = st.secrets['YOUTUBE']
 
 embeddings = OpenAIEmbeddings(openai_api_key = openai_api_key)
-db = Chroma(persist_directory='./db', embedding_function=embeddings) 
+db = Chroma(persist_directory='db', embedding_function=embeddings) 
 llm = GoogleGenerativeAI(model="gemini-pro", google_api_key=gemini_api_key)
 
 #this is for your youtube search - find a related video that could interest the user 

@@ -22,7 +22,7 @@ gemini_api_key = st.secrets['GEMINI']
 yt_api_key = st.secrets['YOUTUBE']
 
 embeddings = OpenAIEmbeddings(openai_api_key = openai_api_key)
-db = Chroma(persist_directory='db', embedding_function=embeddings) 
+db = Chroma(persist_directory='./db', embedding_function=embeddings) 
 llm = GoogleGenerativeAI(model="gemini-pro", google_api_key=gemini_api_key)
 
 #this is for your youtube search - find a related video that could interest the user 

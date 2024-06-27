@@ -36,4 +36,4 @@ Feel free to explore and enhance the functionalities of these scripts to create 
 
 ![image](https://github.com/mahikanair/The-Office-Chatbot-/assets/145975620/975d1d08-9b32-4da2-a954-7acf0df9521c)
 
-<small>credits - https://www.google.com/url?sa=i&url=https%3A%2F%2Fqz.com%2F1956723%2Fthe-office-is-the-most-popular-tv-show-on-streaming&psig=AOvVaw3vaP-pqAvUv3dLKFiRMVPc&ust=1708953101861000&source=images&cd=vfe&opi=89978449&ved=0CBUQjhxqFwoTCNiQrcbIxoQDFQAAAAAdAAAAABAE</small>
+<small> ### credits - https://www.google.com/url?sa=i&url=https%3A%2F%2Fqz.com%2F1956723%2Fthe-office-is-the-most-popular-tv-show-on-streaming&psig=AOvVaw3vaP-pqAvUv3dLKFiRMVPc&ust=1708953101861000&source=images&cd=vfe&opi=89978449&ved=0CBUQjhxqFwoTCNiQrcbIxoQDFQAAAAAdAAAAABAE</small>
